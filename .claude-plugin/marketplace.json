@@ -1,10 +1,11 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-plugins",
-  "description": "Ryan's personal Claude Code plugin collection",
   "owner": {
-    "name": "Ryan Lewis",
-    "url": "https://github.com/ryanlewis"
+    "name": "Ryan Lewis"
+  },
+  "metadata": {
+    "description": "Ryan's personal Claude Code plugin collection"
   },
   "plugins": [
     {
@@ -12,15 +13,15 @@
       "description": "YouTube toolkit: summarize videos, analyze comments, download audio/video",
       "version": "1.0.0",
       "author": {
-        "name": "Ryan Lewis",
-        "url": "https://github.com/ryanlewis"
+        "name": "Ryan Lewis"
       },
       "source": {
-        "source": "url",
-        "url": "https://github.com/ryanlewis/claude-youtube-tools.git"
+        "source": "github",
+        "repo": "ryanlewis/claude-youtube-tools"
       },
       "category": "productivity",
-      "homepage": "https://github.com/ryanlewis/claude-youtube-tools"
+      "homepage": "https://github.com/ryanlewis/claude-youtube-tools",
+      "repository": "https://github.com/ryanlewis/claude-youtube-tools"
     }
   ]
 }
