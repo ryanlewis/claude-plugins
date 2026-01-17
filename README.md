@@ -6,7 +6,7 @@ A personal marketplace of Claude Code plugins.
 
 | Plugin | Description |
 |--------|-------------|
-| [yt-summarizer](https://github.com/ryanlewis/claude-summarize-youtube) | Summarize YouTube videos from transcripts |
+| [youtube-tools](https://github.com/ryanlewis/claude-youtube-tools) | YouTube toolkit: summarize, comments, download audio/video |
 
 ## Installation
 
