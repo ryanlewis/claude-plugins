@@ -18,7 +18,7 @@ Install any plugin from this marketplace:
 
 For example:
 ```
-/plugin install yt-summarizer@github.com/ryanlewis/claude-plugins
+/plugin install youtube-tools@github.com/ryanlewis/claude-plugins
 ```
 
 ## Adding This Marketplace
@@ -27,4 +27,12 @@ You can add this marketplace to your Claude Code installation to browse and inst
 
 ```
 /plugin marketplace add github.com/ryanlewis/claude-plugins
+```
+
+## Validation
+
+Validate a plugin or marketplace manifest:
+
+```bash
+claude plugin validate .
 ```
