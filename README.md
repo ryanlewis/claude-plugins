@@ -13,12 +13,18 @@ A personal marketplace of Claude Code plugins.
 Install any plugin from this marketplace:
 
 ```
-/plugin install <plugin-name>@github.com/ryanlewis/claude-plugins
+/plugin install <plugin-name>@https://github.com/ryanlewis/claude-plugins
+```
+
+Or from the command line:
+
+```bash
+claude plugin install <plugin-name>@https://github.com/ryanlewis/claude-plugins
 ```
 
 For example:
 ```
-/plugin install youtube-tools@github.com/ryanlewis/claude-plugins
+/plugin install youtube-tools@https://github.com/ryanlewis/claude-plugins
 ```
 
 ## Adding This Marketplace
@@ -26,7 +32,13 @@ For example:
 You can add this marketplace to your Claude Code installation to browse and install plugins:
 
 ```
-/plugin marketplace add github.com/ryanlewis/claude-plugins
+/plugin marketplace add https://github.com/ryanlewis/claude-plugins
+```
+
+Or from the command line:
+
+```bash
+claude plugin marketplace add https://github.com/ryanlewis/claude-plugins
 ```
 
 ## Validation
