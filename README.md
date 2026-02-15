@@ -7,6 +7,7 @@ A personal marketplace of Claude Code plugins.
 | Plugin | Description |
 |--------|-------------|
 | [youtube-tools](https://github.com/ryanlewis/claude-youtube-tools) | YouTube toolkit: summarize, comments, download audio/video |
+| [isthereanydeal](https://github.com/ryanlewis/claude-isthereanydeal) | Find game deals and price history using the IsThereAnyDeal API |
 
 ## Installation
 
