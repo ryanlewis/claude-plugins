@@ -21,6 +21,10 @@
         "source": "github",
         "repo": "ryanlewis/claude-isthereanydeal"
       }
+    },
+    {
+      "name": "spec-dev",
+      "source": "./plugins/spec-dev"
     }
   ]
 }

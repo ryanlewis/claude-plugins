@@ -1,0 +1,9 @@
+{
+  "name": "spec-dev",
+  "version": "0.1.0",
+  "description": "Spec-driven development: turn feature briefs into structured specifications with traceable requirements and implementation stories",
+  "author": {
+    "name": "Ryan Lewis"
+  },
+  "keywords": ["spec", "requirements", "stories", "planning", "methodology"]
+}
