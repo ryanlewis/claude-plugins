@@ -1,0 +1,9 @@
+{
+  "name": "checkpoint",
+  "version": "0.1.0",
+  "description": "Lets a session compact its own context at a checkpoint, with its own instructions, then carry on",
+  "author": {
+    "name": "Ryan Lewis"
+  },
+  "keywords": ["compaction", "context", "mod"]
+}
