@@ -9,6 +9,7 @@ A personal marketplace of Claude Code plugins.
 | [youtube-tools](https://github.com/ryanlewis/claude-youtube-tools) | YouTube toolkit: summarize, comments, download audio/video |
 | [isthereanydeal](https://github.com/ryanlewis/claude-isthereanydeal) | Find game deals and price history using the IsThereAnyDeal API |
 | [spec-dev](spec-dev/) | Spec-driven development: structured specifications with traceable requirements and stories |
+| [checkpoint](plugins/checkpoint/) | Lets a session compact its own context at a checkpoint, with its own instructions, then carry on |
 
 ## Installation
 

@@ -25,6 +25,10 @@
     {
       "name": "spec-dev",
       "source": "./plugins/spec-dev"
+    },
+    {
+      "name": "checkpoint",
+      "source": "./plugins/checkpoint"
     }
   ]
 }
