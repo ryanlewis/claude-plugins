@@ -8,40 +8,39 @@ A personal marketplace of Claude Code plugins.
 |--------|-------------|
 | [youtube-tools](https://github.com/ryanlewis/claude-youtube-tools) | YouTube toolkit: summarize, comments, download audio/video |
 | [isthereanydeal](https://github.com/ryanlewis/claude-isthereanydeal) | Find game deals and price history using the IsThereAnyDeal API |
-| [spec-dev](spec-dev/) | Spec-driven development: structured specifications with traceable requirements and stories |
 | [checkpoint](plugins/checkpoint/) | Lets a session compact its own context at a checkpoint, with its own instructions, then carry on |
-
-## Installation
-
-Install any plugin from this marketplace:
-
-```
-/plugin install <plugin-name>@https://github.com/ryanlewis/claude-plugins
-```
-
-Or from the command line:
-
-```bash
-claude plugin install <plugin-name>@https://github.com/ryanlewis/claude-plugins
-```
-
-For example:
-```
-/plugin install youtube-tools@https://github.com/ryanlewis/claude-plugins
-```
 
 ## Adding This Marketplace
 
 You can add this marketplace to your Claude Code installation to browse and install plugins:
 
 ```
-/plugin marketplace add https://github.com/ryanlewis/claude-plugins
+/plugin marketplace add ryanlewis/claude-plugins
 ```
 
 Or from the command line:
 
 ```bash
-claude plugin marketplace add https://github.com/ryanlewis/claude-plugins
+claude plugin marketplace add ryanlewis/claude-plugins
+```
+
+## Installation
+
+Then install any plugin from it:
+
+```
+/plugin install <plugin-name>@ryanlewis-plugins
+```
+
+Or from the command line:
+
+```bash
+claude plugin install <plugin-name>@ryanlewis-plugins
+```
+
+For example:
+```
+/plugin install youtube-tools@ryanlewis-plugins
 ```
 
 ## Validation
