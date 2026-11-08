@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  plugins:
+    runs-on: ubuntu-latest
+    env:
+      # Runs the native binary without the package's postinstall step.
+      CLAUDE: node node_modules/@anthropic-ai/claude-code/cli-wrapper.cjs
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .node-version
+
+      - name: Install Claude Code
+        run: npm ci --ignore-scripts
+
+      - name: Validate marketplace
+        run: $CLAUDE plugin validate --strict .
+
+      - name: Validate in-repo plugins
+        run: |
+          for dir in plugins/*/; do
+            $CLAUDE plugin validate --strict "$dir"
+          done
+
+      - name: Test checkpoint
+        run: $CLAUDE plugin test plugins/checkpoint
